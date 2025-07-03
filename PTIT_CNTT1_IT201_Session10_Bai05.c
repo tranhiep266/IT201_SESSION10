@@ -17,6 +17,10 @@ Node* createNode(int data)
 }
 Node* deleteValue(Node* head,int value)
 {
+   if(head==NULL){
+      printf("khong co phan tu");
+      return 1;
+      }
    Node* current=head;
    while (current->next!=NULL)
    {
